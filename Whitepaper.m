@@ -3,8 +3,15 @@
 % positive values starting from 1. These values indicate the number of
 % detected cell clones which share a common ancestor.
 
-
-
+%% The goal of the program here is to do the following tasks:
+% # Show where the data we get comes from, and how it generates the
+% distribution that we see
+% # Generate a simple stem-cell model to show how different distributions
+% might arise
+% # Determine what are the distributions of interest
+% # Determine how we might check if distribution A originates from 
+% # Given several different datasets, determine what the minimum we would
+% need to make an informed
 %% Each biological cell should have the following representations
 % # As a point                  - In visual contexts
 % # As the numeric "1"          - As a numeric equivalent to the above.
