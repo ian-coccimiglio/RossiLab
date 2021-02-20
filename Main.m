@@ -1,15 +1,14 @@
 % Look at the data
-clear
+clear; clf
 AllData = xlsread("TransposonClean.xlsx");
-OneX.data = AllData(:,1:8); OneX.numDamage = 1;
-FiveX.data = AllData(:,9:15); FiveX.numDamage = 5;
-NineX.data = AllData(:,16:23); NineX.numDamage = 9;
-ThirX.data = AllData(:,24:26); ThirX.numDamage = 13;
+OneX = AllData(:,1:8);
+FiveX = AllData(:,9:15);
+NineX = AllData(:,16:23);
+ThirX = AllData(:,24:26);
  %% Raw data
-dataPlotter(ThirX);
-    
-%% Set up a variable cluster sizer
-
+dataPlotter(AllData, 5);
+%%
+UniqueFreqCount(OneX.data)
 
 %%
 
